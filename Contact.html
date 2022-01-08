@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>L'escale Beauté Péaule</title>
+    <link rel="stylesheet" href="style2.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-align: center;
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            margin-bottom: 10px;
+            padding: 0;
+            background-color: rgb(255, 255, 255);
+            overflow: hidden;
+            font-size: 16px;
+            box-shadow: 0 0 0px 1px rgb(75, 72, 72);
+        }
+
+        li {
+            display: inline;
+            margin: 0 0px;
+            float: center;
+        }
+
+        li a {
+            color: rgb(0, 0, 0);
+            padding: 20px 35px;
+            text-decoration: none;
+            display: inline-block;
+
+        }
+
+        li a:hover {
+            background-color: rgb(179, 173, 173);
+            border-radius: 10px;
+        }
+
+        header,footer {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            padding: 0 20px;
+        }
+
+        form {
+            font-weight: bold;
+            background-color: blanchedalmond;
+            padding: 30px;
+            border-radius: 10px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        form h1 {
+            font-size: 30px;
+        }
+
+        form .separation {
+            width: 100%;
+            height: 1px;
+            background-color: black;
+        }
+
+        form .corps-formulaire {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+
+        form .corps-formulaire .premier {
+            margin-top: 20px;
+            display;
+        }
+
+        form .corps-formulaire .gauche .groupe input {
+            margin-top: 5px;
+            padding: 30px;
+        }
+
+        form .corps-formulaire .gauche .groupe {}
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="Page1.html">Page testas</a></li>
+            <li><a href="Page2.html">Page 2</a></li>
+            <li><a href="Page3.html">Page 3</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <form>
+        <h1>Contactez-nous</h1>
+        <div class="separation"></div>
+        <div class="corps-formulaire"></div>
+        <div class="gauche">
+            <div class="groupe">
+                <div class="premier">
+                    <label>Votre Prénom</label>
+                    <input type="text">
+                    <i class="fas fa-user"></i>
+                </div>
+
+                <div class="deuxieme">
+                    <label>Votre Adresse E-mail</label>
+                    <input type="text">
+                    <i class="fas fa-envelope"></i>
+                </div>
+
+                <div class="groupe">
+                    <label>Votre Téléphone</label>
+                    <input type="text">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+            </div>
+        </div>
+        <div class="droite">
+            <div class="groupe">
+                <label>Message</label>
+                <textarea></textarea>
+            </div>
+        </div>
+
+        <div class="pied-formulaire">
+            <button>Envoyer le message</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
